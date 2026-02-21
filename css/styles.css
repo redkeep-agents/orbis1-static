@@ -56,3 +56,12 @@ h1{font-size:58px;line-height:1.02;margin:24px 0 12px}h1 span{color:var(--acc)}h
 .step{text-align:center}.dot{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 8px;background:linear-gradient(180deg,#58d2ff,#2b8bff);color:#fff;font-size:26px}
 .arrow{font-size:30px;color:#7aa0c8}
 @media (max-width:980px){.flow3{grid-template-columns:1fr;}.arrow{display:none}}
+
+
+.marketGrowth{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:center}
+.lineSvg{width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px}
+.growthStats{display:grid;gap:12px}
+.statPill{background:linear-gradient(90deg,#25c7ff,#2a6df4);color:#fff;border-radius:12px;padding:16px 18px}
+.statPill strong{display:block;font-size:44px;line-height:1.05}
+.statPill span{font-size:14px;opacity:.96}
+@media (max-width:980px){.marketGrowth{grid-template-columns:1fr}.statPill strong{font-size:38px}}
