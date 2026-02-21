@@ -19,3 +19,5 @@ h1{font-size:58px;line-height:1.02;margin:24px 0 12px}h1 span{color:var(--acc)}h
 .contact label:last-of-type{grid-column:1/-1}.contact button{width:max-content}.hp{position:absolute;left:-9999px;opacity:0}
 .foot{color:var(--muted);border-top:1px solid var(--line);margin-top:24px}
 @media (max-width:980px){h1{font-size:38px}.announcement,.grid3,.contact form,.signalGrid{grid-template-columns:1fr}.nav{display:block}.nav nav{margin-top:10px}}
+
+.use{position:relative}.uicon{font-size:26px;margin-bottom:6px}
