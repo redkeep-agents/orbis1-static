@@ -44,8 +44,8 @@ h1{font-size:58px;line-height:1.02;margin:24px 0 12px}h1 span{color:var(--acc)}h
 .walletItem span{display:inline-block;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600}
 .walletItem.active{border-color:#66d08b}
 .walletItem.active span{background:#18a84f;color:#fff}
-.walletItem.integration{border-style:dashed}
-.walletItem.integration span{background:#4fc3f7;color:#08344a}
+.walletItem.coming{border-style:dashed;border-color:#9fb2cf}
+.walletItem.coming span{background:#e6eefc;color:#24406b}
 .demoBar{display:block;text-decoration:none;background:linear-gradient(90deg,#2ec7ff,#2b6df6);color:#fff!important;border-radius:12px;padding:16px 18px;font-weight:700;text-align:center}
 .demoBar small{display:block;font-weight:500;opacity:.95;margin-top:6px}
 @media (max-width:980px){.walletGrid{grid-template-columns:1fr}}
@@ -65,3 +65,5 @@ h1{font-size:58px;line-height:1.02;margin:24px 0 12px}h1 span{color:var(--acc)}h
 .statPill strong{display:block;font-size:44px;line-height:1.05}
 .statPill span{font-size:14px;opacity:.96}
 @media (max-width:980px){.marketGrowth{grid-template-columns:1fr}.statPill strong{font-size:38px}}
+
+.wicon{font-size:24px;margin-bottom:6px}
