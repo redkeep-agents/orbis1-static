@@ -18,12 +18,8 @@
     <div class="brand"><img src="/images/orbis-logo-white.png" alt="Orbis1" class="brandLogo" /></div>
     <nav>
       <a href="#announcement">Announcement</a>
-      <a href="#signals">Market Signals</a>
-      <a href="#lightning">Lightning</a>
       <a href="#integrations">Wallets</a>
       <a href="#exchanges">Exchanges</a>
-      <a href="#partners">Partners</a>
-      <a href="https://medium.com" target="_blank" rel="noopener">Blog</a>
       <a href="#contact" class="btn">Contact</a>
     </nav>
   </header>
@@ -62,20 +58,14 @@
     </section>
 
     <section id="lightning" class="wrap">
-      <h2>Lightning Status & Execution Graph</h2>
-      <div class="signalGrid">
-        <article class="card metric"><h3>Settlement Speed</h3><p class="big">Instant</p><small>Lightning-first payment flows</small></article>
-        <article class="card metric"><h3>Route Health</h3><p class="big">Stable</p><small>Continuous monitoring + failover</small></article>
-        <article class="card metric"><h3>Ops Visibility</h3><p class="big">Live</p><small>Status, webhooks, reconciliation</small></article>
-      </div>
-      <div class="card chart">
-        <h3>Lightning Execution Stages</h3>
-        <div class="bars">
-          <div><label>Invoice creation</label><span style="width:95%"></span></div>
-          <div><label>Route discovery</label><span style="width:86%"></span></div>
-          <div><label>Payment confirmation</label><span style="width:92%"></span></div>
-          <div><label>Settlement + webhook</label><span style="width:88%"></span></div>
-        </div>
+      <h2>Lightning Execution Layer</h2>
+      <div class="card">
+        <ul>
+          <li>Invoice creation and quote APIs</li>
+          <li>Route-aware payment dispatch</li>
+          <li>Real-time payment status + webhooks</li>
+          <li>Reconciliation and audit exports</li>
+        </ul>
       </div>
     </section>
 
@@ -86,6 +76,13 @@
 
     <section id="integrations" class="wrap">
       <h2>Wallet Integration Status</h2>
+      <div class="scroller" aria-label="Wallet icons">
+        <article class="logoCard"><img src="/images/company-logo-1.webp" alt="Wallet 1" /></article>
+        <article class="logoCard"><img src="/images/company-logo-2.webp" alt="Wallet 2" /></article>
+        <article class="logoCard"><img src="/images/company-logo-3.webp" alt="Wallet 3" /></article>
+        <article class="logoCard"><img src="/images/company-logo-4.webp" alt="Wallet 4" /></article>
+        <article class="logoCard"><img src="/images/company-logo-5.webp" alt="Wallet 5" /></article>
+      </div>
       <div class="grid3">
         <article class="card"><h3>Live</h3><ul><li>Core wallet send/receive primitives</li><li>Lightning invoice + settlement hooks</li><li>Monitoring and reconciliation</li></ul></article>
         <article class="card"><h3>Pilot</h3><ul><li>Bitcoin Tribe wallet</li><li>Merchant checkout pilots</li><li>Operational dashboards</li></ul></article>
@@ -94,13 +91,12 @@
     </section>
 
     <section id="exchanges" class="wrap">
-      <h2>Exchanges (Lightning-enabled focus)</h2>
-      <div class="scroller" aria-label="Exchange logos">
-        <article class="logoCard"><img src="/images/bitfinex.png" alt="Bitfinex" /><span>Bitfinex</span></article>
-        <article class="logoCard"><img src="/images/company-logo-1.webp" alt="Lightning Exchange 2" /><span>Lightning Exchange 2</span></article>
-        <article class="logoCard"><img src="/images/company-logo-2.webp" alt="Lightning Exchange 3" /><span>Lightning Exchange 3</span></article>
-        <article class="logoCard"><img src="/images/company-logo-3.webp" alt="Lightning Exchange 4" /><span>Lightning Exchange 4</span></article>
-        <article class="logoCard"><img src="/images/company-logo-4.webp" alt="Lightning Exchange 5" /><span>Lightning Exchange 5</span></article>
+      <h2>Exchanges (where Lightning is enabled)</h2>
+      <div class="scroller" aria-label="Exchanges">
+        <article class="logoCard textOnly"><strong>Coinbase</strong><span>LN support varies by product/region</span></article>
+        <article class="logoCard textOnly"><strong>Kraken</strong><span>LN support available on selected flows</span></article>
+        <article class="logoCard textOnly"><strong>Bitfinex</strong><span>LN-enabled BTC rails</span></article>
+        <article class="logoCard textOnly"><strong>Binance</strong><span>LN support varies by region/product</span></article>
       </div>
     </section>
 
