@@ -27,3 +27,11 @@ h1{font-size:58px;line-height:1.02;margin:24px 0 12px}h1 span{color:var(--acc)}h
 .architectureImg{display:block;width:100%;height:auto;max-height:none;object-fit:contain;background:#fff;border-radius:10px}
 
 .architectureCard{padding:10px}
+
+
+.signalGrid.charts{margin-top:10px}
+.miniChart h3{font-size:20px;margin-bottom:10px}
+.barsRow{height:120px;display:flex;align-items:flex-end;gap:10px;padding:8px 4px;border:1px solid var(--line);border-radius:10px;background:#f8fbff;margin-bottom:8px}
+.barsRow span{flex:1;background:linear-gradient(180deg,#6ec3ff,#2f6df6);border-radius:8px}
+.barsPair{height:120px;display:flex;align-items:flex-end;gap:16px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:#f8fbff;margin-bottom:8px}
+.barsPair span{flex:1;background:linear-gradient(180deg,#9cc4ff,#6a87c9);border-radius:8px}
