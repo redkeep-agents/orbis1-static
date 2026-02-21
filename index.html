@@ -15,10 +15,11 @@
 </head>
 <body>
   <header class="nav wrap">
-    <div class="brand">Orbis1</div>
+    <div class="brand"><img src="/images/orbis-logo-white.png" alt="Orbis1" class="brandLogo" /></div>
     <nav>
       <a href="#announcement">Announcement</a>
       <a href="#signals">Market Signals</a>
+      <a href="#lightning">Lightning</a>
       <a href="#integrations">Wallets</a>
       <a href="#exchanges">Exchanges</a>
       <a href="#partners">Partners</a>
@@ -31,7 +32,6 @@
     <section class="hero wrap">
       <h1>Enabling USDT on <span>Bitcoin</span></h1>
       <p class="lead">The picks-and-shovels company providing turnkey solutions, APIs, SDKs and tools that let businesses use assets on Bitcoin from day one.</p>
-      <img src="/images/hero-preview.png" alt="Orbis1 platform preview" class="heroimg" />
     </section>
 
     <section id="announcement" class="announcement wrap card">
@@ -61,26 +61,33 @@
       </div>
     </section>
 
+    <section id="lightning" class="wrap">
+      <h2>Lightning Status & Execution Graph</h2>
+      <div class="signalGrid">
+        <article class="card metric"><h3>Settlement Speed</h3><p class="big">Instant</p><small>Lightning-first payment flows</small></article>
+        <article class="card metric"><h3>Route Health</h3><p class="big">Stable</p><small>Continuous monitoring + failover</small></article>
+        <article class="card metric"><h3>Ops Visibility</h3><p class="big">Live</p><small>Status, webhooks, reconciliation</small></article>
+      </div>
+      <div class="card chart">
+        <h3>Lightning Execution Stages</h3>
+        <div class="bars">
+          <div><label>Invoice creation</label><span style="width:95%"></span></div>
+          <div><label>Route discovery</label><span style="width:86%"></span></div>
+          <div><label>Payment confirmation</label><span style="width:92%"></span></div>
+          <div><label>Settlement + webhook</label><span style="width:88%"></span></div>
+        </div>
+      </div>
+    </section>
+
     <section id="why" class="wrap">
       <h2>Why now</h2>
       <p>USDT demand is global. Bitcoin distribution is global. Lightning solves payment speed. Tooling is still fragmented. Orbis1 closes that gap with production-grade primitives for builders and operators.</p>
     </section>
 
     <section id="integrations" class="wrap">
-      <h2>Wallet Integrations</h2>
-      <p class="sub">Visual integration rail imported from current Orbis1 site assets.</p>
-      <div class="scroller" aria-label="Wallet integration logos">
-        <article class="logoCard"><img src="/images/company-logo-1.webp" alt="Wallet integration 1" /></article>
-        <article class="logoCard"><img src="/images/company-logo-2.webp" alt="Wallet integration 2" /></article>
-        <article class="logoCard"><img src="/images/company-logo-3.webp" alt="Wallet integration 3" /></article>
-        <article class="logoCard"><img src="/images/company-logo-4.webp" alt="Wallet integration 4" /></article>
-        <article class="logoCard"><img src="/images/company-logo-5.webp" alt="Wallet integration 5" /></article>
-        <article class="logoCard"><img src="/images/company-logo-6.webp" alt="Wallet integration 6" /></article>
-        <article class="logoCard"><img src="/images/company-logo-7.webp" alt="Wallet integration 7" /></article>
-        <article class="logoCard"><img src="/images/company-logo-8.webp" alt="Wallet integration 8" /></article>
-      </div>
+      <h2>Wallet Integration Status</h2>
       <div class="grid3">
-        <article class="card"><h3>Live</h3><ul><li>USDT payment flows on Bitcoin rails</li><li>API + webhook rails</li><li>Monitoring and reconciliation</li></ul></article>
+        <article class="card"><h3>Live</h3><ul><li>Core wallet send/receive primitives</li><li>Lightning invoice + settlement hooks</li><li>Monitoring and reconciliation</li></ul></article>
         <article class="card"><h3>Pilot</h3><ul><li>Bitcoin Tribe wallet</li><li>Merchant checkout pilots</li><li>Operational dashboards</li></ul></article>
         <article class="card"><h3>Coming Soon</h3><ul><li>Additional wallet SDK adapters</li><li>Enterprise custody connectors</li><li>Expanded compliance tooling</li></ul></article>
       </div>
