@@ -3,7 +3,7 @@
 .wrap{max-width:1120px;margin:0 auto;padding:24px}
 .nav{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);z-index:20}
 .nav a{color:var(--muted);margin-left:14px;text-decoration:none}.nav a:hover{color:var(--text)}.brand{font-weight:700}.brandLogo{height:32px;width:auto;display:block}
-h1{font-size:58px;line-height:1.02;margin:24px 0 12px}h1 span{color:var(--acc)}h2{font-size:30px;margin:0 0 12px}h3{margin:0 0 8px}
+h1{font-size:58px;line-height:1.02;margin:24px 0 12px}h1 span{color:var(--acc)}h2{font-size:26px;margin:0 0 10px}h3{margin:0 0 8px}
 .lead{font-size:22px;color:var(--muted);max-width:900px}.sub{color:var(--muted);margin:0 0 12px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
 .announcement{display:grid;grid-template-columns:1.2fr 1fr;gap:20px;align-items:center}.announcement img{width:100%;border-radius:10px;border:1px solid var(--line)}
