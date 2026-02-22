@@ -138,3 +138,11 @@ h2{font-size:30px;letter-spacing:-.01em}
 }
 
 .xfeed.compact{padding:18px}.xActions{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}.btn.secondary{background:#1f3c88}
+
+
+/* Tablet architecture emphasis */
+@media (min-width:760px) and (max-width:1180px){
+  #architecture .wrap{max-width:100%}
+  #architecture .architectureCard{padding:6px 8px}
+  #architecture .architectureImg{width:100%;max-height:none}
+}
