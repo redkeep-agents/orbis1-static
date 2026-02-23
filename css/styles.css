@@ -60,11 +60,11 @@ h1{font-size:58px;line-height:1.02;margin:24px 0 12px}h1 span{color:var(--acc)}h
 
 .marketGrowth{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:center}
 .lineSvg{width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px}
-.growthStats{display:grid;gap:12px}
+.growthStats{display:flex;flex-direction:column;gap:12px}
 .statPill{background:linear-gradient(90deg,#25c7ff,#2a6df4);color:#fff;border-radius:12px;padding:16px 18px}
 .statPill strong{display:block;font-size:44px;line-height:1.05}
 .statPill span{font-size:14px;opacity:.96}
-@media (max-width:980px){.marketGrowth{grid-template-columns:1fr}.statPill strong{font-size:38px}}
+@media (max-width:980px){.marketGrowth{grid-template-columns:1fr;gap:12px}.growthChart{order:1}.growthStats{order:2;display:flex;flex-direction:column;gap:10px}.statPill strong{font-size:32px}.marketGrowth{padding:12px}}
 
 .walletLogo{width:44px;height:44px;border-radius:10px;object-fit:contain;margin-bottom:6px;background:#fff;padding:2px}
 
