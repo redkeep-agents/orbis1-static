@@ -222,3 +222,8 @@ h2{font-size:30px;letter-spacing:-.01em}
   .marketGrowth .growthChart{order:1}
   .marketGrowth .growthStats{order:2}
 }
+
+
+.pinnedSnapshot{padding:12px;background:#fff;border-radius:12px;border:1px solid var(--line);margin-bottom:10px}
+.pinnedSnapshot .tweetText{font-size:15px;color:var(--text);margin:8px 0}
+.pinnedSnapshot .tweetAuthor{font-size:13px;color:var(--muted)}
