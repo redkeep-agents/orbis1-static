@@ -162,3 +162,19 @@ h2{font-size:30px;letter-spacing:-.01em}
 @media (max-width:980px){
   .ctaRow{flex-direction:column}
 }
+
+
+/* Final alignment fixes */
+.usecasesWrap{padding-left:36px;padding-right:36px}
+.walletsWrap{padding-left:36px;padding-right:36px}
+.usecasesWrap .grid3{align-items:stretch}
+.usecasesWrap .grid3 article.card{min-height:220px;padding:22px}
+.walletsWrap .walletGrid{align-items:stretch}
+.walletsWrap .walletPanel{padding-left:12px;padding-right:12px}
+/* ensure wallets header aligns */
+.walletsWrap h2{margin-left:6px}
+/* contact CTA styling */
+.contactCTA{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:18px}
+.contactCTA .ctaRow{display:flex;gap:12px}
+.contactCTA .cta{background:linear-gradient(90deg,#2ec7ff,#2b6df6);color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none}
+@media(max-width:980px){.usecasesWrap,.walletsWrap{padding-left:18px;padding-right:18px}.usecasesWrap .grid3 article.card{min-height:auto}}
