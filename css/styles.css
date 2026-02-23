@@ -227,3 +227,10 @@ h2{font-size:30px;letter-spacing:-.01em}
 .pinnedSnapshot{padding:12px;background:#fff;border-radius:12px;border:1px solid var(--line);margin-bottom:10px}
 .pinnedSnapshot .tweetText{font-size:15px;color:var(--text);margin:8px 0}
 .pinnedSnapshot .tweetAuthor{font-size:13px;color:var(--muted)}
+
+
+/* Equalize usecase cards and ensure top alignment */
+.useCards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.useCards .card{display:flex;flex-direction:column;min-height:220px}
+.useCards .card h3{margin-top:6px}
+@media (max-width:700px){.useCards{grid-template-columns:1fr}}
