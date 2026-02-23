@@ -251,3 +251,13 @@ h2{font-size:30px;letter-spacing:-.01em}
   .wrap{padding-left:14px;padding-right:14px}
   h2{padding-left:4px}
 }
+
+
+/* Mobile: Stack market chart and KPI pills as separate full-width cards */
+@media (max-width:700px){
+  .marketGrowth{grid-template-columns:1fr;gap:12px}
+  .growthChart, .growthStats{width:100%;}
+  .growthStats{display:flex;flex-direction:column;gap:10px}
+  .statPill{display:block;padding:14px;border-radius:12px}
+  .statPill strong{font-size:28px}
+}
