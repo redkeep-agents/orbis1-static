@@ -272,3 +272,8 @@ h2{font-size:30px;letter-spacing:-.01em}
 .cardImg{border-radius:10px}
 .statPill{border-radius:12px;padding:12px 14px}
 
+
+/* Template tokens */
+:root{--primary:#0b6ef6;--muted:#5b6b7a;--card-bg:#ffffff;--bg:#f7fbff;--radius:14px;--gap:20px}
+.container{max-width:1120px;margin:0 auto;padding:24px}
+.component-card{background:var(--card-bg);border-radius:var(--radius);padding:20px;box-shadow:0 10px 30px rgba(10,20,40,.04)}
