@@ -264,3 +264,11 @@ h2{font-size:30px;letter-spacing:-.01em}
 
 .partnerLogo{width:64px;height:64px;object-fit:contain}
 @media(max-width:700px){.partnerLogo{width:48px;height:48px}}
+
+/* design-refinement: unify radii, buttons, and shadows */
+:root{--card-radius:16px;--btn-radius:12px}
+.card{border-radius:var(--card-radius);box-shadow:0 12px 40px rgba(15,23,42,.06)}
+.btn, .cardCta{border-radius:var(--btn-radius);padding:10px 16px}
+.cardImg{border-radius:10px}
+.statPill{border-radius:12px;padding:12px 14px}
+
