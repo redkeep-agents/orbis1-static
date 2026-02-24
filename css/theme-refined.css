@@ -1,0 +1,4 @@
+/* Refined minimal theme */
+:root{--bg:#ffffff;--card:#ffffff;--text:#0f172a;--muted:#6b7280;--acc:#1d4ed8;--line:#e6eefc}
+body{background:var(--bg)}
+.card{box-shadow:0 6px 24px rgba(15,23,42,.04)}
